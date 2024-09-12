@@ -6,7 +6,9 @@ import './index.css'
 //import MyPromises from './functions/MyPromises.jsx'
 //import MyPromisesAll from './functions/MyPromisesAll.jsx'
 //import MyPromisesRace from './functions/MyPromisesRace';
-import MyFetchsAPIs from './functions/MyFetchsAPIs';
+//import MyFetchsAPIs from './functions/MyFetchsAPIs';
+import MyFetchPost from './functions/MyFetchPost';
+import MyFetchPut from './functions/MyFetchPut';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,6 +17,8 @@ createRoot(document.getElementById('root')).render(
     {/*<MyPromises />*/}
     {/*<MyPromisesAll/>*/}
     {/*<MyPromisesRace/>*/}
-    <MyFetchsAPIs/>
+    {/*<MyFetchsAPIs/>*/}
+    {/*<MyFetchPost/>*/}
+    <MyFetchPut/>
   </StrictMode>,
 );

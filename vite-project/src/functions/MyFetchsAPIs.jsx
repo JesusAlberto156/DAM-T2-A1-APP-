@@ -1,4 +1,5 @@
 function MyFetchsAPIs(){
+    
     function fcnXMLHttpRequest(){
         console.log("¡Execute GET API by XMLHttoRequest!");
         var request = new XMLHttpRequest();
@@ -24,34 +25,32 @@ function MyFetchsAPIs(){
         });
     }
 
-    //fcnXMLHttpRequest()
-    //.then(response =>{
-    //    console.log('Response XMLHttp: ', response);
-    //});
+    fcnXMLHttpRequest()
+    .then(response =>{
+        console.log('Response XMLHttp: ', response);
+    });
 
     function fcnFetchRequest(){
         console.log("¡Execute GET API by Fetch!");
 
-      fetch('https://reqres.in/api/users')
-        .then(resp => {
-           console.log("Response Fetch: ", resp);
+        fetch('https://reqres.in/api/users')
+        //.then(resp => {
+        //   console.log("Response Fetch: ", resp);
             
-            resp.json().then(respjson => {
-                console.log("Response Fetch: ", respjson);
-            });
-        });
-    };
-
-    //fcnFetchRequest();
-
-    fetch('https://reqres.in/api/users')
+        //    resp.json().then(respjson => {
+        //        console.log("Response Fetch: ", respjson);
         .then(resp => resp.json())
         .then(respObj => {
-            console.log(respObj);
-            console.log(respObj.page);
-            console.log(respObj.per_page);
-            console.log(respObj.data);
+            //console.log(respObj);
+            //console.log(respObj.page);
+            //console.log(respObj.per_page);
+            console.log("Response Fetch: ",respObj.data);
         });
+        //});
+    };
+
+    fcnFetchRequest();
+
     return(
         <>
             <div>
