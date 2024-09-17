@@ -9,6 +9,8 @@ import './index.css'
 //import MyFetchsAPIs from './functions/MyFetchsAPIs';
 import MyFetchPost from './functions/MyFetchPost';
 import MyFetchPut from './functions/MyFetchPut';
+import MyFletchBlob from './functions/MyFetchBlob';
+import MyDataTypes from './methods/MyDateTypes';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,7 +20,9 @@ createRoot(document.getElementById('root')).render(
     {/*<MyPromisesAll/>*/}
     {/*<MyPromisesRace/>*/}
     {/*<MyFetchsAPIs/>*/}
-    {/*<MyFetchPost/>*/}
-    <MyFetchPut/>
+    {/*<MyFetchPost/>
+    
+    
+    {/*<MyDataTypes/>*/}
   </StrictMode>,
 );
