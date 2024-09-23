@@ -54,9 +54,9 @@ function MyFetchsAPIs(){
     return(
         <>
             <div>
-                <h1>
+                <h2 style={{color:'white'}}>
                     Programa para FETCH APIs
-                </h1>
+                </h2>
             </div>
         </>
     );

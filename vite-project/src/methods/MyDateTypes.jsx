@@ -1,41 +1,62 @@
 function MyDataTypes() {
     
     let idNombre = 'Jesus';
-    idNombre = 706;
+    idNombre = 156;
+    const Alias = "Chuy"
+    const Nombre = "Jesus Alberto";
+    const Apellidos = "Partida Michel";
+    const NumControl = 645;
+    const FechaReg = new Date();
+    let Experiencia = 5;
+    let Activo = true;
 
     console.log("IdNombre: ",idNombre);
+    console.log("Alias: ",Alias);
+    console.log("Nombres: ",Nombre);
+    console.log("Apellidos: ",Apellidos);
+    console.log("No Control: ",NumControl);
+    console.log("Fecha de Registro: ",FechaReg.toString());
+    console.log("Experiencia: ",Experiencia);
+    console.log("Estatus: ",(Activo) ? 'Activo' : 'No Activo');
+    
+    let Pasatiempos = ['futbol, ','dibujar, ','musica, ','leer, '];
+    let Libros = ['it, ','El resplandor, ','sangre de campeon, ']
 
-    const Nombre = "Jesus Alberto";
-    const FicNumControl = 645;
-    const FicFechaReg = new Date();
-    let FicExperiencia = 5;
-    let FicActivo = true;
+    Pasatiempos.push('videojuegos, ');
+    Pasatiempos.push('anime');
+
+    Libros.push('el gamer');
+
+    console.log("Pasatiempos: ",Pasatiempos);
+    console.log("Libros: ",Libros);
 
     return (
         <>
             <div>
-                <h1>
+                <h2 style={{color:'white'}}>
                     Programa para conocer diferentes Tipos de de Datos
-                </h1>
-                <h1>
-                    {idNombre}
-                    <br/> 
-                        {FicIdNombre},
+                </h2>
+                <h3 style={{color:'white'}}>
+                        Alias: {Alias}
                     <br/>
-                        {FicNombre},
+                        Id: {idNombre}
                     <br/>
-                        {FicApellidos},
+                        Nombre: {Nombre},
                     <br/>
-                        {FicNumControl},
+                        Apellidos: {Apellidos},
                     <br/>
-                        {FicNumControl2},
+                        No. Control: {NumControl},
                     <br/>
-                        {FicFechaReg.toString()},
+                        Fecha de Registro: {FechaReg.toString()},
                     <br/>
-                        {FicExperiencia},
+                        Años de Experiencia: {Experiencia},
                     <br/>
-                        {(FicActivo) ? 'Activo' : 'No Activo'}
-                </h1>
+                        Estatus: {(Activo) ? 'Activo' : 'No Activo'}
+                    <br/>
+                        Pasatiempos: {Pasatiempos}
+                    <br/>
+                        Libros: {Libros}
+                </h3>
             </div>
        
         </>

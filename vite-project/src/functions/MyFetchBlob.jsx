@@ -26,9 +26,9 @@ function MyFletchBlob(){
     return(
         <>
             <div>
-                <h1>
-                    Programa para FETCH API POST
-                </h1>
+                <h2 style={{color:'white'}}>
+                    Fundamentos de Promesas y Fetch
+                </h2>
             </div>
         </>
     );

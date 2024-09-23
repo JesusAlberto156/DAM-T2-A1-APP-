@@ -32,9 +32,9 @@ function MyPromisesRace() {
     return (
         <>
             <div>
-                <h1>
+                <h2 style={{color:'white'}}>
                     Programa de Funciones con Promesas RACE
-                </h1>
+                </h2>
             </div>
        
         </>

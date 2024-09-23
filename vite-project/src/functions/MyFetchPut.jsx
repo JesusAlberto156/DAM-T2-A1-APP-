@@ -1,8 +1,8 @@
 function MyFetchPut(){
 
     let usuarioActualizado = {
-        nombre: 'Aitana',
-        edad: 29
+        nombre: 'Jesus',
+        edad: 23
     };
 
     fetch('https://reqres.in/api/users/1',{
@@ -22,9 +22,9 @@ function MyFetchPut(){
     return(
         <>
             <div>
-                <h1>
+                <h2 style={{color:'white'}}>
                     Programa para FETCH API PUT
-                </h1>
+                </h2>
             </div>
         </>
     );

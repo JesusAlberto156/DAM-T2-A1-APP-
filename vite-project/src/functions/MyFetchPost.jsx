@@ -1,8 +1,8 @@
 function MyFetchPost(){
 
     let usuario = {
-        nombre: 'Aitana',
-        edad: 25
+        nombre: 'Jesus',
+        edad: 21
     }
 
     fetch('https://reqres.in/api/users/1',{
@@ -22,9 +22,9 @@ function MyFetchPost(){
     return(
         <>
             <div>
-                <h1>
+                <h2  style={{color:'white'}}>
                     Programa para FETCH API POST
-                </h1>
+                </h2>
             </div>
         </>
     );

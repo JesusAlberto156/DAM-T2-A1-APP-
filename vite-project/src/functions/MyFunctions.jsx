@@ -40,7 +40,7 @@ function MyFunctions(){
     return (
         <>
             <div>
-                <h1>Programa de Funciones</h1>
+                <h2 style={{ color:'white'}}>Programa de Funciones</h2>
             </div>
         </>
     );

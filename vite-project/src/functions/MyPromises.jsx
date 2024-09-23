@@ -59,7 +59,7 @@ function MyPromises(){
     return (
         <>
             <div>
-                <h1>Programa de Funciones con Promesas</h1>
+                <h2 style={{color:'white'}}>Programa de Funciones con Promesas</h2>
             </div>
         </>
     );

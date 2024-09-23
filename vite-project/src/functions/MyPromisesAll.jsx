@@ -34,7 +34,7 @@ function MyPromisesAll(){
         });
     }
 
-    fcnSumarLento(5)
+    fcnSumarLento(4)
     .then(respuesta=>{
         console.log('Respuesta Lenta: ',respuesta);
     });
@@ -49,7 +49,7 @@ function MyPromisesAll(){
     //    console.log('Respuestas: ',respuestas);
     //})
 
-    let arregloVarios = [fcnSumarLento(5), fcnSumarRapido(10), true, '¡Hola Mundo!'];
+    let arregloVarios = [fcnSumarLento(4), fcnSumarRapido(10), true, '¡Hola Mundo!'];
 
     Promise.all(arregloVarios)
     .then(respuestas =>{
@@ -62,9 +62,9 @@ function MyPromisesAll(){
     return(
         <>
             <div>
-                <h1>
+                <h2 style={{color:'white'}}>
                     Programa de Funciones con Promesas All
-                </h1>
+                </h2>
             </div>
         </>
     );
