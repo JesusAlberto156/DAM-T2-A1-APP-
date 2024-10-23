@@ -22,10 +22,6 @@ function App() {
           <h1 style={{color:'white'}}>Desarrollo Progresivo Web (PWA)</h1>
         <br/>
       </div>
-      
-      <p className="read-the-docs">
-        
-      </p>
     </>
   )
 }

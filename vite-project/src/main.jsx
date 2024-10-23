@@ -17,7 +17,8 @@ import './index.css'
 //import { Contador } from './components/contador';
 //import { ContadorHook } from './components/contadorHook.jsx';
 //import { Login } from './components/login.jsx';
-//import { Usuarios } from './components/usuarios.jsx';
+import { Usuarios } from './components/usuarios.jsx';
+import { Formulario } from './components/formulario.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -44,7 +45,8 @@ createRoot(document.getElementById('root')).render(
     {/*<ContadorHook/>*/}
     {/*<Login/>*/}
     {/*<Usuarios/>*/}
-    
+    <Formulario/>
+
     {/* Tema 4.1 - 4.10*/}
     
   </StrictMode>,
